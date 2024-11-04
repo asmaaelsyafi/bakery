@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  btn-scroll */
+.scroll {
+    width: 40px;
+    height: 90px;
+    position: fixed;
+    right: 0px;
+    margin-top: 100px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+.scroll button {
+    border: none;
+    background-color: transparent;
+    /* width: 100%; */
+    margin-top: 25px;
+
+}
+
+/*  sec 1 styling */
+#top .bg-layer .navbar {
+    /* display: inline-block; */
+    /* background-color: aqua; */
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    overflow: auto;
+}
+
+.navbar .navl {
+    float: left;
+    ;
+    /* background-color: rgb(82, 179, 53); */
+    width: 45%;
+
+}
+
+.navl img {
+    width: 30%;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+.navr {
+    /* background-color: blue; */
+    float: right;
+    width: 45%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.navr a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+#top {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 120vh;
+    background-size: cover;
+    overflow: auto;
+}
+
+#top .bg-layer .caption {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.caption p {
+    color: #ffffff;
+}
+
+
+#top .bg-layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    overflow: auto;
+}
+
+#top .next{
+    text-decoration: none;
+    width: 45px;
+    height: 80px;
+    border: 0.7px solid #ececec;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+    background-image: url(../images/Icons/arrowdown.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.learn-btn {
+    border: 1px;
+    color: #fff;
+    background-color: #8e7754;
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+}
+
+.learn-btn:hover {
+    border: 1px;
+    color: #8e7754;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.contact-btn {
+    border: 1px solid white;
+    color: #fff;
+    background-color: transparent;
+    margin: 20px;
+    padding: 9px 15px;
+    font-size: large;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+}
+
+.contact-btn:hover {
+    border: 1px solid white;
+    color: black;
+    background-color: #fff;
+    margin: 20px;
+    padding: 9px 15px;
+    font-size: large;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+}
+
+/*  sec 2 styling */
+
+#sec2 {
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 100vw;
+    overflow: auto;
+}
+
+#sec2 .pg-sec2 {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+#sec2 p{
+    color: #646464;
+}
+#sec2 h3 {
+    color: #000000;
+}
+
+#sec2 .part2 {
+    /* background-color: blue; */
+    display: inline-block;
+    font-size: 20px;
+    width: 45%;
+    vertical-align: middle;
+    color: gray;
+    margin: 25px;
+
+}
+
+.part2 table {
+    color: gray;
+}
+
+#sec2 .part2 img {
+    margin: 40px 0px 0px 30px;
+    width: 100%;
+}
+
+#sec2 .part2 h3,
+p,
+table {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#sec2 .part2 table tr td {
+    padding: 10px;
+}
+
+#sec2 .part2 .icon2 {
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid rgb(225, 231, 142);
+    border-radius: 50%;
+}
+
+.part2 .icon21 {
+    background-image: url(../images/Icons/leaf.png);
+    background-size: cover;
+}
+
+.part2 .icon22 {
+    background-image: url(../images/Icons/people.png);
+    background-size: cover;
+}
+
+.part2 .icon23 {
+    background-image: url(../images/Icons/heart.png);
+    background-size: cover;
+}
+
+.part2 .icon24 {
+    background-image: url(../images/Icons/check.png);
+    background-size: cover;
+}
+
+/*  sec 3 styling */
+.home #sec3 {
+    background-color: rgb(226, 224, 213);
+    height: 100vh;
+    padding: 15px;
+    overflow: auto;
+
+}
+
+#sec3 p{
+    color: #3f3f3f;
+}
+/* #sec3 .pg-sec3{
+    background-color: rgb(141, 61, 61);
+    width: 90vh;
+    margin: auto;
+
+} */
+
+#sec3 .part3 {
+    display: inline-block;
+    vertical-align: middle;
+    /* background-color: beige; */
+    width: 44%;
+    font-size: 20px;
+    font-family: "Old Standard TT", serif;
+    margin: 30px;
+    padding-top: 35px;
+
+
+}
+
+.part3 img {
+    width: 100%;
+}
+
+
+/*  sec 4 styling */
+
+.clear-fix {
+    clear: both;
+}
+
+#sec4 {
+    /* background-color: blue; */
+    text-align: center;
+    height: 100vh;
+}
+#sec4 p{
+    color: rgb(102, 102, 102);
+}
+#sec4 .container4 {
+    /* background-color: brown; */
+    width: 90%;
+    margin: auto;
+}
+
+#sec4 .part4 {
+    /* background: tomato; */
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+#sec4 .part4 img {
+    width: 100%;
+    padding: 20px;
+}
+
+/*  sec 5 styling */
+#sec5 {
+    background-color: rgb(241, 240, 240);
+    width: 100vw;
+    height: 100vh;
+}
+
+#sec5 .bg-part5 {
+    /* background-color: rgb(219, 219, 219); */
+    width: 90%;
+    margin: auto;
+}
+
+.part5 {
+    /* background-color: blueviolet; */
+    width: 40%;
+    float: left;
+    overflow: auto;
+}
+
+
+
+.part5 td {
+    color: rgb(77, 76, 76);
+}
+.part5 p{
+    color: rgb(77, 76, 76);
+}
+
+.part5l {
+    float: left;
+    margin-top: 50px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.part5l .icon5 {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(146, 114, 102);
+    margin: 10px;
+    border: 0.7px solid transparent;
+    border-radius: 50%;
+
+}
+
+.icon51 {
+    background-image: url(../images/Icons/map.png);
+    background-size: cover;
+}
+
+.icon52 {
+    background-image: url(../images/Icons/phone.png );
+    background-size: cover;
+}
+
+.icon53 {
+    background-image: url(../images/Icons/headphone.png );
+    background-size: cover;
+}
+
+.icon54 {
+    background-image: url(../images/Icons/email.png);
+    background-size: cover;
+}
+
+.part5r {
+    float: right;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/*  sec 6 styling */
+#sec6 {
+    background-color: #616161;
+    height: 80vh;
+    padding: 10px;
+    margin: auto;
+    overflow: auto;
+    background-color: rgba(0, 0,0, 0.7);
+}
+
+#sec6 .part6 h4 {
+    margin: 20px;
+    color: white;
+}
+
+#sec6 .part6 {
+    float: left;
+    /* background-color: black; */
+    width: 20%;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    overflow: auto;
+
+}
+
+.part6 .bg-part6{
+    background-image: url(../images/contact-details-map.png);
+    background-size: 278px 148px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+#sec6 .part6 .arr {
+    height: 5px;
+    width: 5px;
+    /* border: 0.1px solid transparent; */
+    border-radius: 50%;
+    padding: 5px;
+    background-image: url(../images/Icons/arrow.png);
+    background-size: cover;
+}
+
+#sec6 .part6 table tr td {
+    padding: 8px;
+}
+
+#sec6 .part6 .icon6 {
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+}
+
+.space td hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(88, 88, 88);
+}
+
+#sec6 .part6 td,
+a,
+p {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+
+.part6 .icon61 {
+    background-image: url(../images/Icons/location.png);
+    background-size: cover;
+}
+
+.part6 .icon62 {
+    background-image: url(../images/Icons/phone-gray.png);
+    background-size: cover;
+}
+
+.part6 .icon63 {
+    background-image: url(../images/Icons/email-solid.png);
+    background-size: cover;
+}
+
+.part6 .icon64 {
+    background-image: url(../images/Icons/earth.png);
+    background-size: cover;
+}
+
+/*  sec 7 styling */
+
+#sec7 {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    height: 50vh;
+}
+
+#sec7 .part7 {
+    padding-top: 40px;
+    color: gray;
+}
+
+.part7 .btn-social {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: transparent;
+    padding: 20px;
+}
+
+.part7 .face {
+    background-image: url(../images/Icons/facebook.png);
+    background-size: cover;
+}
+
+.part7 .google {
+    background-image: url(../images/Icons/google.png);
+    background-size: cover;
+}
+
+.part7 .linked {
+    background-image: url(../images/Icons/linkedin.png);
+    background-size: cover;
+}
+
+.part7 .twitter {
+    background-image: url(../images/Icons/twitter.png);
+    background-size: cover;
+}
+
+/* upbooton */
+.home #sec2 .up {
+    text-decoration: none;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid #e4e4e4;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin: 20px;
+    background-image: url(../images/Icons/arrowup.png);
+    background-size: cover;
+}
